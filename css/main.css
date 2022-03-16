@@ -4,6 +4,7 @@ html {
   font-family: Georgia, serif;
   line-height: 1.5;
 }
+
 *, * ::before, *::after {
   box-sizing: inherit;
 }
@@ -11,11 +12,13 @@ html {
 img {
   width: 100%;
 }
-h1, h2, h3, h4{
-  font-family: 'Patua One', sans-serif;
+
+h1, h2, h3, h4 {
+  font-family: "Patua One", sans-serif;
   color: #5d8432;
   text-transform: uppercase;
 }
+
 figcaption {
   font-size: .8rem;
   font-style: italic;
@@ -23,18 +26,24 @@ figcaption {
 }
 
 nav {
-font-size: 1.125;
-font-weight: bold;
+  font-family: "Patua One", sans-serif;
+  font-size: 1.125rem;
+  font-weight: bold;
 }
 
 nav ol {
-list-style-type: none;
+  font-family: "Patua One", sans-serif;
+  list-style-type: none;
 }
+
 nav a {
+  font-family: "Patua One", sans-serif;
   color: #793284;
   text-decoration: none;
 }
+
 nav a:hover {
+  font-family: "Patua One", sans-serif;
   color: #b42885;
   text-decoration: underline;
 }
